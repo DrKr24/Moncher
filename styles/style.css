@@ -44,6 +44,7 @@
 }
 
 .nav {
+  margin-inline: auto;
   max-width: 1890px;
   padding: 20px 5px 20px 25px;
   display: flex;
@@ -125,16 +126,23 @@
   padding-top: 117px;
 }
 
+.container {
+  max-width: 1920px;
+  margin-inline: auto;
+}
 .promo {
   width: 100%;
 }
 
 .promo__slider {
-  height: 80vh;
+  height: clamp(340px, 62vh, 680px);
 }
 
-.swiper_slider img {
-  height: 80vh;
+.promo__slide {
+  height: clamp(320px, 62vh, 680px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .promo__info {
