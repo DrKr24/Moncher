@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Головна</title>
+  </head>
+  <body>
+    <header
+      class="header"
+      style="
+        background-image: url('http://moncher.in.ua/wp-content/uploads/2019/09/header-1920x105.png');
+      "
+    >
+      <nav class="nav">
+        <div class="nav__button">
+          <p class="nav__button__item"></p>
+          <p class="nav__button__item"></p>
+          <p class="nav__button__item"></p>
+        </div>
+        <ul class="nav__list nav__list__mobile_disable nav__list__mobile">
+          <li class="nav__list__item">
+            <a
+              href="index.html"
+              class="nav__list__item-link nav__list__item-link_active"
+              >Головна</a
+            >
+          </li>
+          <li class="nav__list__item">
+            <a href="Menu.html" class="nav__list__item-link">Меню</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="Gallery.html" class="nav__list__item-link">Галерея</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="Contacts.html" class="nav__list__item-link">Контакти</a>
+          </li>
+        </ul>
+        <a href="index.html" class="nav__logo">
+          <img src="/images/logo.png" alt="Logo" />
+        </a>
+        <p class="header__nav__language">UA</p>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="promo">
+        <div class="promo__slider">
+          <div class="mySwiperMain swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/images/promo-image-1.jpg" alt="Slider" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/promo-image-2.jpg" alt="Slider" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/promo-image-3.jpg" alt="Slider" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="promo__info">
+          <div class="info-wrapper">
+            <div class="mySwiperBottom swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <p class="promo__info__street-name">
+                    Вул.
+                    <span class="street__styled-text">Хрещатик, 1</span>
+                  </p>
+                  <p class="promo__info__street-metro">
+                    м.
+                    <span class="metro__styled-text">"Хрещатик"</span>
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="promo__info__street-name">
+                    Вул.
+                    <span class="street__styled-text"
+                      >Богдана Хмельницького, 21</span
+                    >
+                  </p>
+                  <p class="promo__info__street-metro">
+                    м.
+                    <span class="metro__styled-text">"Дарниця"</span>
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="promo__info__street-name">
+                    Вул.
+                    <span class="street__styled-text">Мазепи, 9</span>
+                  </p>
+                  <p class="promo__info__street-metro">
+                    м.
+                    <span class="metro__styled-text">"Театральна"</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="promo__info__schedule">
+            <div class="promo__info__schedule-days">
+              <p class="promo__info__schedule-days-item">
+                Пн-Пт з 10:00 до 23:00
+              </p>
+              <p class="promo__info__schedule-days-item">
+                Сб-Нд з 12:00 до 00:00
+              </p>
+            </div>
+            <div class="promo__info__schedule-tel">
+              <a href="tel:380989898989" class="promo__info__schedule-tel-link"
+                ><span class="tel__styled-text">Тел:</span> /098/ 569 89 89</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__container">
+          <div class="about__info">
+            <p class="about__info__welcome">Завжди раді</p>
+            <p class="about__info__line"></p>
+            <h1 class="about__info__title">Про нас</h1>
+            <p class="about__info__description">
+              "Мон Шер" запрошує жителів та гостей столиці скуштувати страви
+              ліванської і європейської кухні. Талановиті кухарі здивують Вас не
+              тільки традиційними українськими та смачними європейськими
+              стравами, але й екзотичними ліванськими стравами. Все дуже просто,
+              смачно і одночасно - дуже корисно. Не тільки їжа, але і винна
+              карта ресторану порадує справжніх цінителів вин.
+            </p>
+          </div>
+          <div class="about__images">
+            <img
+              src="http://moncher.in.ua/wp-content/uploads/2019/09/image1.png"
+              alt="About image"
+              class="about__image-1"
+            />
+            <img
+              src="http://moncher.in.ua/wp-content/uploads/2019/09/image2.png"
+              alt="About image"
+              class="about__image-2"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="service">
+        <div class="service__container">
+          <p class="service__line"></p>
+          <h2 class="service__title">Наші послуги</h2>
+          <dl class="service__list">
+            <div class="service__list__item">
+              <dt
+                style="
+                  background-image: url('http://moncher.in.ua/wp-content/uploads/2019/09/01.png');
+                "
+              >
+                01
+              </dt>
+              <dd>Корпоративи</dd>
+            </div>
+            <div class="service__list__item">
+              <dt
+                style="
+                  background-image: url('http://moncher.in.ua/wp-content/uploads/2019/09/02.png');
+                "
+              >
+                02
+              </dt>
+              <dd>Весілля</dd>
+            </div>
+            <div class="service__list__item">
+              <dt
+                style="
+                  background-image: url('http://moncher.in.ua/wp-content/uploads/2019/09/03.png');
+                "
+              >
+                03
+              </dt>
+              <dd>Дні народження</dd>
+            </div>
+            <div class="service__list__item">
+              <dt
+                style="
+                  background-image: url('http://moncher.in.ua/wp-content/uploads/2019/09/01.png');
+                "
+              >
+                04
+              </dt>
+              <dd>Кальянне меню</dd>
+            </div>
+            <div class="service__list__item">
+              <dt
+                style="
+                  background-image: url('http://moncher.in.ua/wp-content/uploads/2019/09/01.png');
+                "
+              >
+                05
+              </dt>
+              <dd>Бизнес ланчи</dd>
+            </div>
+            <div class="service__list__item">
+              <dt
+                style="
+                  background-image: url('http://moncher.in.ua/wp-content/uploads/2019/09/01.png');
+                "
+              >
+                06
+              </dt>
+              <dd>Жива музика</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="nav nav-footer">
+        <ul class="nav__list-footer">
+          <li class="nav__list__item">
+            <a
+              href="index.html"
+              class="nav__list__item-link nav__list__item-link_active"
+              >Головна</a
+            >
+          </li>
+          <li class="nav__list__item">
+            <a href="Menu.html" class="nav__list__item-link">Меню</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="Gallery.html" class="nav__list__item-link">Галерея</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="Contacts.html" class="nav__list__item-link">Контакти</a>
+          </li>
+        </ul>
+        <a href="index.html" class="nav__logo">
+          <img src="/images/logo.png" alt="Logo" />
+        </a>
+        <p class="nav__info">© Mon Cher 2024</p>
+      </nav>
+    </footer>
+    <script src="/scripts/modal-menu.js"></script>
+    <script src="/scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/google-maps-api-loader@latest"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTdsfbkrZGyOWUS0emOINoa36EmAfhTMY&callback=initMap&language=ua"
+      async
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Галерея</title>
+  </head>
+  <body>
+    <header
+      class="header"
+      style="
+        background-image: url('http://moncher.in.ua/wp-content/uploads/2019/09/header-1920x105.png');
+      "
+    >
+      <nav class="nav">
+        <div class="nav__button">
+          <p class="nav__button__item"></p>
+          <p class="nav__button__item"></p>
+          <p class="nav__button__item"></p>
+        </div>
+        <ul class="nav__list nav__list__mobile_disable nav__list__mobile">
+          <li class="nav__list__item">
+            <a href="index.html" class="nav__list__item-link">Головна</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="Menu.html" class="nav__list__item-link">Меню</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="Gallery.html" class="nav__list__item-link">Галерея</a>
+          </li>
+          <li class="nav__list__item">
+            <a
+              href="Contacts.html"
+              class="nav__list__item-link nav__list__item-link_active"
+              >Контакти</a
+            >
+          </li>
+        </ul>
+        <a href="index.html" class="nav__logo">
+          <img src="/images/logo.png" alt="Logo" />
+        </a>
+        <p class="header__nav__language">UA</p>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="contacts">
+        <div class="contacts__container">
+          <div class="contact">
+            <h2 class="contact__title">Вул. Хрещатик, 1</h2>
+            <p class="contact__line"></p>
+            <div class="contact__info">
+              <div class="contact__info__adress">
+                <p class="contact__info__adress-metro">м "Хрещатик"</p>
+                <a href="tel:380989898989" class="contact__info__adress-tel"
+                  >38 (044) 251-21-77
+                </a>
+              </div>
+              <div class="contact__info__schedule">
+                <p class="contact__info__schedule-item">
+                  Пн-Пт з 10:00 до 01:00
+                </p>
+                <p class="contact__info__schedule-item">
+                  Сб, Нд з 10:00 до 01:00
+                </p>
+              </div>
+            </div>
+            <a href="#" class="contact-delivery-link">Замовити їжу</a>
+            <div id="map1" class="contact__map__container"></div>
+          </div>
+          <div class="contact">
+            <h2 class="contact__title">Вул. Богдана Хмельницького, 21</h2>
+            <p class="contact__line"></p>
+            <div class="contact__info">
+              <div class="contact__info__adress">
+                <p class="contact__info__adress-metro">м "Дарниця"</p>
+                <a href="tel:380989898989" class="contact__info__adress-tel"
+                  >38 (044) 251-21-77
+                </a>
+              </div>
+              <div class="contact__info__schedule">
+                <p class="contact__info__schedule-item">
+                  Пн-Пт з 10:00 до 01:00
+                </p>
+                <p class="contact__info__schedule-item">
+                  Сб, Нд з 10:00 до 01:00
+                </p>
+              </div>
+            </div>
+            <a href="#" class="contact-delivery-link">Замовити їжу</a>
+            <div id="map2" class="contact__map__container"></div>
+          </div>
+          <div class="contact">
+            <h2 class="contact__title">Вул. Мазепи, 9</h2>
+            <p class="contact__line"></p>
+            <div class="contact__info">
+              <div class="contact__info__adress">
+                <p class="contact__info__adress-metro">м "Театральна"</p>
+                <a href="tel:380989898989" class="contact__info__adress-tel"
+                  >38 (044) 251-21-77
+                </a>
+              </div>
+              <div class="contact__info__schedule">
+                <p class="contact__info__schedule-item">
+                  Пн-Пт з 10:00 до 01:00
+                </p>
+                <p class="contact__info__schedule-item">
+                  Сб, Нд з 10:00 до 01:00
+                </p>
+              </div>
+            </div>
+            <a href="#" class="contact-delivery-link">Замовити їжу</a>
+            <div id="map3" class="contact__map__container"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="nav nav-footer">
+        <ul class="nav__list-footer">
+          <li class="nav__list__item">
+            <a href="index.html" class="nav__list__item-link">Головна</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="Menu.html" class="nav__list__item-link">Меню</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="Gallery.html" class="nav__list__item-link">Галерея</a>
+          </li>
+          <li class="nav__list__item">
+            <a
+              href="Contacts.html"
+              class="nav__list__item-link nav__list__item-link_active"
+              >Контакти</a
+            >
+          </li>
+        </ul>
+        <a href="index.html" class="nav__logo">
+          <img src="/images/logo.png" alt="Logo" />
+        </a>
+        <p class="nav__info">© Mon Cher 2024</p>
+      </nav>
+    </footer>
+    <script src="/scripts/contacts.js"></script>
+    <script src="/scripts/modal-menu.js"></script>
+  </body>
+</html>
